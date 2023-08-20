@@ -39,11 +39,11 @@ export const UserName = styled.p`
 export const ListStats = styled.ul`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
 
   gap: ${props => props.theme.spasing(3)};
-  /* flex: calc((100% -2 * ${props => props.theme.spasing(2)}) / 3); */
+  flex: calc((100% -2 * ${props => props.theme.spasing(2)}) / 3);
   background-color: #e4f5f7;
 `;
 export const Item = styled.li`
