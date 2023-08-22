@@ -17,7 +17,7 @@ export const TableBody = styled.tbody`
   border: 1px solid ${props => props.theme.colors.gray};
 `;
 export const TableRow = styled.tr`
-  height: 50px;
+  height: 48px;
   &:nth-of-type(2n) {
     background-color: ${props => props.theme.colors.lightBlue};
   }
