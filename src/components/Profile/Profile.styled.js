@@ -44,7 +44,7 @@ export const ListStats = styled.ul`
 
   gap: ${props => props.theme.spasing(3)};
   flex: calc((100% -2 * ${props => props.theme.spasing(2)}) / 3);
-  background-color: #e4f5f7;
+  background-color: ${props => props.theme.colors.lightBlue};
 `;
 export const Item = styled.li`
   display: flex;

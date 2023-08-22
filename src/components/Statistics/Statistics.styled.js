@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const getColor = props => {
-  console.log(props);
   switch (props.label) {
     case '.docx':
       return props.theme.colors.blue;
@@ -55,11 +54,10 @@ export const ListItem = styled.li`
   gap: ${props => props.theme.spasing(1)};
   color: ${props => props.theme.colors.white};
   background-color: ${getColor};
-  opacity: 0.8;
 
   border: 1px solid ${getColor};
 `;
 
 export const TextLabel = styled.span`
-  font-size: 12px;
+  font-size: 14px;
 `;

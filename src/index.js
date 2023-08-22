@@ -7,12 +7,13 @@ const theme = {
   colors: {
     black: '#212121',
     white: '#fff',
-    red: 'red',
-    green: 'green',
-    orange: 'orange',
+    red: '#f8456c',
+    green: '#6bf3d6',
+    orange: '#f39b53;',
     gray: '#cccccc',
-    blue: 'blue',
-    violet: 'violet',
+    lightBlue: '#e4f5f7',
+    blue: '#6d9cf1',
+    violet: '#e26df1',
   },
   radii: {
     sm: '4px',

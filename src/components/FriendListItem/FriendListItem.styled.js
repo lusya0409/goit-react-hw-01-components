@@ -1,6 +1,6 @@
 import styled from 'styled-components';
+
 const getColorIsOnline = props => {
-  console.log(props);
   return props.$_isonline ? props.theme.colors.green : props.theme.colors.red;
 };
 
